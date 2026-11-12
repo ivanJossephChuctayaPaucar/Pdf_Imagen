@@ -1,14 +1,22 @@
 [project]
 name = "pdf-to-image"
 version = "1.0.0"
-description = "Conversor local de PDF a JPG o PNG de alta calidad para Windows"
+description = "Programa de escritorio para Windows (100% local y sin conexión) que convierte documentos PDF a imágenes JPG o PNG de alta calidad."
+readme = "README.md"
 requires-python = ">=3.11"
+authors = [
+    { name = "Ivan J. Ch. P." },
+]
 dependencies = [
     "pymupdf>=2.1,<3.0",
     "pillow>=12.0",
     "customtkinter>=5.2",
     "tkinterdnd2>=0.4",
 ]
+
+[project.urls]
+Homepage = "https://github.com/ivanJossephChuctayaPaucar/Pdf_Imagen"
+Repository = "https://github.com/ivanJossephChuctayaPaucar/Pdf_Imagen"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
